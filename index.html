@@ -1,0 +1,963 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Collapsible sidebar using Bootstrap 3</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+	<div class="row">
+		<div class="col-sm-3">
+			<!-- put sidebar code here -->
+  		</div>
+  		<div class="col-sm-9">
+  			<!-- fixed navbar at top -->
+  			<nav class="navbar navbar-default navbar-fixed-top">
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> 
+			      </button>
+			    </div>
+			    <div class="collapse navbar-collapse" id="myNavbar">
+			      <ul class="nav navbar-nav navbar-right">
+			        <li><a href="#"><span></span> BUY COFFEE</a></li>
+			        <li><a href="#"><span></span> ABOUT US</a></li>
+			        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span> CART</a></li>
+			        <li><a href="#"><span class="glyphicon glyphicon-user"></span> ACCOUNT</a></li>
+
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+  			<!-- end of navbar -->
+  			<div class="row" style="margin-top: 5em;">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>	
+				<div class="col-sm-4">
+					<div class=" row product-block container">
+						<div class="product-info">
+							<div class="col-sm-3">
+								<div class="product-content">
+									<p class="product-price">Rs. 400</p>
+									<p class="product-name">Coffee</p>
+									<span class="divider"></span>
+									<p></p>
+								</div>
+								<div class="product-type">
+									<span class="dot"></span>
+									<span class="product-label">medium</span>	
+								</div>	
+							</div>
+							<div class="col-sm-9">
+								<img src="https://crate-dev.kilobytetech.com/wp-content/uploads/2018/01/Akusi-AB-300x400.jpg" class="img-responsive product-box-image">
+							</div>
+						</div>
+						<div class="overlay">
+						    <div class="text">
+						    	<div class="overlay-product-info">
+						    		<p class="overlay-product-name">Coeffe</p>
+						    		<span class="overlay-divider"></span>
+						    		<p class="overlay-origin">ORIGIN</p>
+						    		<p class="overlay-roaster">Roaster Name</p>
+								</div>
+								<div class="overlay-button">
+									<div class="got_it">CHOCLATE</div>
+								</div>
+								<div class="overlay-cart-button">
+									<div class="overlay-add-to-cart">ADD TO CART</div>
+								</div>
+							</div>
+						</div>
+					</div>		
+				</div>
+			</div>
+		</div>	
+	</div>	
+
+
+	 <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+     <!-- Bootstrap Js CDN -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	 <script type="text/javascript">
+           $(function () {
+			  $(document).scroll(function () {
+				  var $nav = $(".navbar-fixed-top");
+				  $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+				});
+			});
+      </script>
+
+    </body>
+</html>
